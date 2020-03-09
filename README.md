@@ -1,8 +1,10 @@
-Web Scraper for Kijiji
-Meant for sneakerheads
-Or data scientists trying to learn sneaker market prices
-IDK small project
 
-Just put your page in page.py
+<a href="http://fvcproductions.com"><img src="https://kijijiforbusiness.ca/wp-content/uploads/2018/09/Kijiji_logo_PURPLE_RGB_EN.png" title="FVCproductions" alt="FVCproductions"></a>
 
-And run the script boom you get yourself a csv file with data O_O
+
+# Kijiji Web Scraper
+
+> Scrapes kijiji searches into your discord webhook, outputted in discord, insert your webhook in the main 
+
+> Small project
+
