@@ -13,4 +13,14 @@ Literally worst programmer ever
 
 But not copied repo like bryan
 
+>How to use :
+
+Run putfile.py, it's an import file for bs.py idk why its kinda useless cause you don't need multiple codes.
+
+Imports:
+
+Beautiful soup for web scraping
+
+Requests for accessing the web
+
 --Matthew
