@@ -7,6 +7,7 @@
 > Scrapes kijiji searches into your discord webhook, outputted in discord, insert your webhook in the main 
 
 > Small project
+
 Made in 2 days gang wya
 Literally worst programmer ever
 But not copied repo like bryan
