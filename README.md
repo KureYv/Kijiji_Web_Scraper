@@ -14,7 +14,7 @@
 
 Run putfile.py, it's an import file for bs.py idk why its kinda useless cause you don't need multiple codes.
 
-Imports:
+#Imports:
 
 Beautiful soup for web scraping
 
