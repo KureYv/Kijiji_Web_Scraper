@@ -4,6 +4,7 @@ import re
 import csv
 
 link = "Your link here"
+read = "output.txt"
 csv_file = open('output.csv','w')
 csv_writer = csv.writer(csv_file)
 pagestart = "Page range start here"
@@ -19,12 +20,24 @@ def kijiji(keyss):
         a = link.get('href')
         fulllink = a
         fulllink = a.split('/')[3]
-        print(fulllink)
         c=b.prettify()
         c = c.replace('<div class="price">', "")
         c = c.replace('</div>', "")
         c = c.strip()
         csv_writer.writerow([fulllink,c])
+         with open(read, 'r')as rf:
+             reads = rf.read()
+             for i in range(0,g):
+                 if fulllink not in reads:
+                     if (Page.keys['keywords'][i]) in fulllink:
+                         print('true')
+                         with open(read, 'a') as wf:
+                             wf.write('kijiji.ca/' + fulllink + ' ' + c + '\n')
+                             data = {
+                                 "username": "Kijiji Monitor",
+                                 "content": a
+                             }
+                             requests.post(webhook, data=data)
 
 for i in range (pagestart,pageend):
     counter = i
