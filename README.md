@@ -19,9 +19,9 @@ Enter your parameters in the main, including the specific page you are scraping 
 Grasped the basics of request and web scraping. 
 
 Problems solved:
--[x] Preventing log overlaps 
--[x] Switching pages
--[x] Webhook breaking on duplicate runs
+- [x] Preventing log overlaps 
+- [x] Switching pages
+- [x] Webhook breaking on duplicate runs
 
 
 
