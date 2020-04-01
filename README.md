@@ -1,23 +1,32 @@
-# Kijiji Web Scraper#
+# Kijiji Web Scraper #
 
 <a href="http://fvcproductions.com"><img src="https://kijijiforbusiness.ca/wp-content/uploads/2018/09/Kijiji_logo_PURPLE_RGB_EN.png" title="kijiji_web" alt="Kijij_wbber" width="250" height="128"></a>
 
 
 
+## Description ##
 
-> Scrapes kijiji searches into your discord webhook, outputted in discord, insert your webhook in the main 
+A mini 'project' that allows user to scrape a certain category in Kijiji, returns new values during the runtime whenever it can find a new value. 
 
-> Small project
+## How to use ##
+Enter your parameters in the main, including the specific page you are scraping in Kijiji and the amount of pages you want it to monitor. Then run runfile.py. 
+
+>In case you want to leave this overnight, please ensure your computer is not a potato. Or just run it on AWS.
 
 
 
->How to use :
+## What I learned ##
+Grasped the basics of request and web scraping. 
 
-Run putfile.py, it's an import file for bs.py idk why its kinda useless cause you don't need multiple codes.
+Problems solved:
+-[x] Preventing log overlaps 
+-[x] Switching pages
+-[x] Webhook breaking on duplicate runs
 
-# Imports:
+
+
+## Imports: ##
 
 Beautiful soup for web scraping
 
 Requests for accessing the web
-
