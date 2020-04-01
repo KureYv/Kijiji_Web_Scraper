@@ -9,6 +9,7 @@ csv_writer = csv.writer(csv_file)
 pagestart = "Page range start here"
 pageend = "Page range end here"
 param = "Input what you see at the ending part of the link, for example like this c37l1700273a29276001?ad=offering&unit-type=house"
+discordwebhook = "Your discord webhook here"
 
 def kijiji(keyss):
     source = requests.get(link +keyss+ param).text
