@@ -6,7 +6,7 @@
 
 ## Description ##
 
-A mini 'project' that allows user to scrape a certain category in Kijiji, returns new values during the runtime whenever it can find a new value. 
+A mini 'project' that allows user to scrape a certain category in Kijiji, returns new values during the runtime whenever it can find a new value. Overlapping items are not outputted, allowing for data scrapping usages and data science.
 
 ## How to use ##
 Enter your parameters in the main, including the specific page you are scraping in Kijiji and the amount of pages you want it to monitor. Then run runfile.py. 
