@@ -15,7 +15,7 @@ Enter your parameters in the main, including the specific page you are scraping 
 
 
 
-## What I learned ##
+## Problems and things learned ##
 Grasped the basics of request and web scraping. 
 
 Problems solved:
